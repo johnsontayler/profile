@@ -1,0 +1,143 @@
+<style>
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  color: black;
+  font-size: 48px;
+  font-weight: 100;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 800;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+a {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  align-content: center;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+.background {
+  background-image: url(images/vinyl_3.png);
+  background-size: cover;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 130px;
+  height: 130;
+  margin: -60px 0px 0px -60px;
+  align-content: center;
+}
+
+.img-circle:hover {
+  background: black;
+  text-decoration-color: white;
+}
+
+.center-image {
+  position: absolute;
+  width: 700px;
+  top: 49%;
+  left: 50%;
+}
+
+.container {
+  border-radius: 50%;
+  height: 800px;
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+  background-image: url("images/test.jpg");
+  background-size: cover;
+}
+
+.inner-circle {
+  border: 1px solid grey;
+  position: absolute;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  top: 12%;
+  left: 13%;
+  margin: -300px 0px 0px -300px;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+.title {
+  position: absolute;
+  width: 700px;
+  left: 3%;
+}
+
+.about-left {
+  position: absolute;
+  width: 150px;
+  top: 35%;
+  left: 5%;
+}
+
+.about-right {
+  position: absolute;
+  width: 200px;
+  top: 35%;
+  left: 67%;
+}
+
+.website {
+  position: absolute;
+  width: 140px;
+  top: 65%;
+  left: 38%;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  padding: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+div.website:hover {
+  background-color: #E8BEDC;
+}
+
+.socials {
+  position: absolute;
+  width: 400px;
+  top: 70%;
+  left: 33%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px 20px;
+  padding-left: 25px;
+}
+
+</style>
