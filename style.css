@@ -16,14 +16,13 @@ h1 {
 
 h2 {
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   font-weight: 800;
 }
 
 p {
   font-family: 'Oswald', sans-serif;
-  text-align: center;
 }
 
 a {
@@ -92,22 +91,34 @@ a:hover {
 
 .title {
   position: absolute;
-  width: 700px;
   left: 3%;
+}
+
+.title h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
 }
 
 .about-left {
   position: absolute;
   width: 150px;
-  top: 35%;
+  top: 41%;
   left: 5%;
+}
+
+.about-left >p{
+  text-align: left;
 }
 
 .about-right {
   position: absolute;
   width: 200px;
-  top: 35%;
-  left: 67%;
+  top: 41%;
+  left: 63%;
+}
+
+.about-right >p{
+  text-align: right;
 }
 
 .website {
@@ -116,9 +127,10 @@ a:hover {
   top: 65%;
   left: 38%;
   font-size: 30px;
-  border: 1px solid black;
+  border: 1px solid grey;
   border-radius: 4px;
   text-align: center;
+  text-decoration: none;
   padding: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
@@ -130,14 +142,14 @@ div.website:hover {
 .socials {
   position: absolute;
   width: 400px;
-  top: 70%;
-  left: 33%;
+  top: 73%;
+  left: 30%;
 }
 
 .list-inline {
   list-style: none;
   padding: 0px 20px;
-  padding-left: 25px;
+  padding-left: 49px;
 }
 
 @media (max-width: 960px) {
